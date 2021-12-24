@@ -1,0 +1,33 @@
+body {
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(https://th.bing.com/th/id/R.03c28bd2b106f91d2299e1916a8695ad?rik=AzTlf1nnsPn79w&riu=http%3a%2f%2finnerspaceintegration.com%2fwp-content%2fuploads%2f2016%2f06%2fearth-from-space-hd-wallpaper-1-thin.jpg&ehk=ViJWQ0FPTBKxXjLknKEYox5%2bYVbT7Qr6ShcKJK9q32A%3d&risl=&pid=ImgRaw&r=0); 
+    background-size: 125%;
+}
+div {
+    display: inline-block;
+    margin-top: 10%;
+}
+button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    border-color: white;
+    
+}
+#quoteText {
+    font-family: 'Courier New', Courier, monospace;
+    color: white;
+}
+
+
+/*Responsive*/
+@media (max-width: 700px) {
+    body {
+        background-size: 150%;
+    }
+    #quoteText {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 25px;
+    }
+}
